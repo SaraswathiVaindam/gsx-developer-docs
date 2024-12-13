@@ -6,46 +6,13 @@ sidebar_position: 0
 
 The plugin is designed to facilitate seamless discovery and access to data available on the GDI platform by leveraging its integrated APIs: the Data Explorer, Authorization Server, and OGC Resource Server. Through the Data Explorer API, users can efficiently search and locate the datasets relevant to their needs. The Authorization Server API ensures secure and controlled access, verifying user permissions and safeguarding data integrity. Finally, the OGC Resource Server API allows standardized access to geospatial data, enabling direct data retrieval in formats compatible with GIS and other data analysis tools. Together, these components empower users to easily find, access, and utilize the GDI platform's rich data resources for a wide range of applications.
 
-# Registration
+## Registration
 
-## Introduction
+A new consumer can register for an account when prompted to log in at either the [Catalogue Panel](https://catalogue.gsx.org.in) or the [Consumer Panel](https://catalogue.gsx.org.in/consumer). Refer to [Registration](../registration.md) for instructions on how to register.
 
-All users of the GSX platform must be registered and authenticated to perform any secure operation offered by the platform, which is available at no cost. The details of these secure operations are defined and explained by all GSX components in their respective [API documentation](https://dx.gsx.org.in/apis). The registration process of a user on the GSX platform is a simple three-step process as outlined below: 1. [Creating the Account](#1-account-creation) 2. [Verifying the Email Address](#2-email-verification) 3. [Assigning / Requesting a User Role](#3-requesting-user-roles)
+## Fetching Client Credentials
 
-## 1. Account Creation
-
-As the first step when a user accesses the [panel](https://catalogue.gsx.org.in/auth), they need to register as a new user. <br/> Registering is highlighted in the picture. ![Register](../resources/auth/register.png)<br/> *Click on Register*
-
-![Account details](../resources/auth/step1.png)<br/> *Enter Account details*
-
-## 2. Email Verification
-
-The user will receive an email with a verification link at their registered email address. By clicking this link, the user's account will be successfully connected to their email address.
-
-***Note: The verification link will expire in 5 minutes.***
-
-![Sample email dialog](../resources/auth/email-template.png)<br/> *Sample email dialog*
-
-Once your email address has been verified, you will be directed to an interface that looks like this:
-
-![Account created, last step of registration pending](../resources/auth/last-step.png)<br/> *Account created! The final registration step of selecting a role is pending.*
-
-## 3. Requesting User Roles
-
-Once email verification is complete, the user can select their desired roles by clicking on the "Complete Profile" button on the subsequent interface. All roles are associated with a resource server to which the role applies. For example:
-
--   Choosing the provider role for the resource server "rs.example.com" allows the user to upload resources to the "rs.example.com" resource server and manage access to those resources.
--   Choosing the consumer role for the resource server "rs.example.com" allows the user to request access to resources on "rs.example.com" and access permitted resources on that resource server.
-
-**NOTE: If the user chooses the consumer role, all resource servers are automatically selected, and the user will receive the consumer role for any new resource server that is added.**
-
-![Choosing consumer role](../resources/auth/cons-role.png)<br/> *Choosing consumer role*
-
-### Registration Successful
-
-User will get a popup with the client id and client secrets.
-
-![Registration Successful](../../static/img/Creds.png)<br/> *Choosing provider role*
+Once a user has registered as a consumer or has been approved as a provider, they can obtain the user's default client credentials.Refer to [Client Creds](../client-credentials.md) for instructions on how to get the client credentials.
 
 ## Installing Qgis Plugin
 
