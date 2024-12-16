@@ -22,7 +22,7 @@ Open the QGIS application, navigate to the "Plugins" section, and click on "Mana
 
 You would have previously received the client ID and client secret; use those credentials to log in here.
 
-![Login](../../static/img/GDI_plugin/Login.png)<br/> *Login*
+![Login](../static/img/GDI_plugin/Login.png)<br/> *Login*
 
 After a successful login, you will receive a list of both public and private data.
 
@@ -30,18 +30,18 @@ After a successful login, you will receive a list of both public and private dat
 
 Accessing public data is simple: click on the desired data, then click "Fetch Data," and it will be plotted on the map.
 
-![Selecting Public Data](../../static/img/GDI_plugin/Public_data_select.png)<br/> *Selecting Public Data*
+![Selecting Public Data](../static/img/GDI_plugin/Public_data_select.png)<br/> *Selecting Public Data*
 
-![Plotting Public Data](../../static/img/GDI_plugin/Public_data_Plot.png)<br/> *Plotting Public Data*
+![Plotting Public Data](../static/img/GDI_plugin/Public_data_Plot.png)<br/> *Plotting Public Data*
 
 ## 3. Accessing Private Data
 
 For private data, click on the desired data in the list and then click "Fetch Data." A popup will appear.
 
-![Private Data Popup](../../static/img/GDI_plugin/Private_data_popup.png)<br/> *Private Data Popup*
+![Private Data Popup](../static/img/GDI_plugin/Private_data_popup.png)<br/> *Private Data Popup*
 
 Click on "Visit Page," and you will be redirected to a website to request access
 
-![Request Access](../../static/img/GDI_plugin/Redirect2.png)<br/> *Request Access*
+![Request Access](../static/img/GDI_plugin/Redirect2.png)<br/> *Request Access*
 
 Once you have requested access, you will be notified upon approval. After receiving access, you can use the data to plot it on the map.
