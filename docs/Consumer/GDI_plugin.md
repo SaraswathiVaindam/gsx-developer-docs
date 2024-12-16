@@ -30,15 +30,15 @@ After a successful login, you will receive a list of both public and private dat
 
 Accessing public data is simple: click on the desired data, then click "Fetch Data," and it will be plotted on the map.
 
-![Selecting Public Data](../../resources/auth/GDI_plugin/Public_data_select.png)<br/> *Selecting Public Data*
+![Selecting Public Data](../../resources/auth/GDI_plugin/Public-data-select.png)<br/> *Selecting Public Data*
 
-![Plotting Public Data](../../resources/auth/GDI_plugin/Public_data_Plot.png)<br/> *Plotting Public Data*
+![Plotting Public Data](../../resources/auth/GDI_plugin/Public-data-Plot.png)<br/> *Plotting Public Data*
 
 ## 3. Accessing Private Data
 
 For private data, click on the desired data in the list and then click "Fetch Data." A popup will appear.
 
-![Private Data Popup](../../resources/auth/GDI_plugin/Private_data_popup.png)<br/> *Private Data Popup*
+![Private Data Popup](../../resources/auth/GDI_plugin/Private-data-popup.png)<br/> *Private Data Popup*
 
 Click on "Visit Page," and you will be redirected to a website to request access
 
