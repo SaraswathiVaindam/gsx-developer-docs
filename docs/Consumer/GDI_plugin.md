@@ -32,7 +32,7 @@ Accessing public data is simple: click on the desired data, then click "Fetch Da
 
 ![Selecting Public Data](../../resources/auth/GDI_plugin/Public-data-select.png)<br/> *Selecting Public Data*
 
-![Plotting Public Data](../../resources/auth/GDI_plugin/Public-data-Plot.png)<br/> *Plotting Public Data*
+![Plotting Public Data](../../resources/auth/GDI_plugin/Public-data-plot.png)<br/> *Plotting Public Data*
 
 ## 3. Accessing Private Data
 
